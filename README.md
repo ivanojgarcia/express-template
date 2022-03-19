@@ -1,24 +1,15 @@
-# Blockchain CSV
+# Express Server Template
 
-The following project seeks to show how a blockchain is built by inserting each of the blocks in a CSV file.
+Template to create a great express server with good practices.
 
-The idea is that each one of the blocks is validated, before its insertion (mining) and that they comply with the necessary parameters for this purpose.
-
-For this we create a file with which you can obtain and mine the blocks
-
-The project creates a CSV file that contains or simulates a blockchain that, starting from a genesis block, allows the creation of blocks to store messages.
-
-For the creation of the hash we use Proof of Work (PoW) as a consensus protocol.
-
-The technologies used to develop it were:
+The technologies used in the project are:
 
 - NodeJS
 - ExpressJS
-
-## The enpoints are:
-
-- [GET] `<HOST>/blocks` to get the blocks of the blockchain.
-- [POST] `<HOST>/mine` to add blocks into the blockchain (mine).
+- Husky
+- Prettier
+- Eslint
+- Jest
 
 ---
 ## Requirements
@@ -52,12 +43,13 @@ If the installation was successful, you should be able to run the following comm
     $ npm --version
     8.4.1
 ```
+
 If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
 
 `$ npm install npm -g`
 
-###
 ### Yarn installation
+
   After installing node, this project will need yarn too, so just run the following command.
 
   `$ npm install -g yarn`
@@ -66,8 +58,8 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Install
 
-  ```shell 
-    $ git clone https://github.com/ivanojgarcia/blockchain-csv.git
+  ```shell
+    $ git clone https://github.com/ivanojgarcia/express-template.git
     $ cd blockchain-csv
     $ yarn install
   ```
