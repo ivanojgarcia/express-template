@@ -60,7 +60,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
   ```shell
     $ git clone https://github.com/ivanojgarcia/express-template.git
-    $ cd blockchain-csv
+    $ cd express-template
     $ yarn install
   ```
 
